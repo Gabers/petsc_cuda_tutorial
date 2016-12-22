@@ -10,7 +10,7 @@ sudo apt install cudatoolkit
 
 
 Install petsc from master branch
-```sh
+```
 git clone -depth 1 -b master https://bitbucket.org/petsc/petsc petsc
 cd petsc
 
