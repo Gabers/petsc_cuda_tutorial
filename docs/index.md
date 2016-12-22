@@ -25,7 +25,9 @@ make all
 
 # add this to path for easy petsc commands
 export PATH=$PETSC_DIR/arch-linux2-c-debug/bin:$PATH
-
+```
+examples running locally:
+```
 # to run on GPU:
 cd src/ksp/ksp/examples/tutorials
 make ex50
@@ -59,6 +61,9 @@ module load cudatoolkit
 
 ./configure --with-cuda=1 --with-thrust=1 --download-f2cblaslapack --download-mpich=1 --download-cusp=1  COPTFLAGS=-O3 CXXOPTFLAGS=-O3 FOPTFLAGS=-O3 --with-mpiexec=aprun --with-debugging=0
 make all
+```
+examples running on blue waters:
+```
 
 # start an interactive session on node with Kepler GPU:
 qsub -I -l nodes=1:ppn=16:xk -l walltime=1:00:00
