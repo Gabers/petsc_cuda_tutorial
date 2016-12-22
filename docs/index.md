@@ -4,13 +4,13 @@ first install cuda toolkit from https://developer.nvidia.com/cuda-downloads
 
 or:
 
-```
+~~~~
 sudo apt install cudatoolkit
-```
+~~~~
 
 
 Install petsc from master branch
-```
+~~~~
 git clone -depth 1 -b master https://bitbucket.org/petsc/petsc petsc
 cd petsc
 
@@ -26,4 +26,4 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 make all
 
 # add this to path for easy petsc commands
-```
+~~~~
