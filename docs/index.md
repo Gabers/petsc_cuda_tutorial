@@ -4,7 +4,7 @@ first install cuda toolkit from https://developer.nvidia.com/cuda-downloads
 
 or:
 
-```sh
+```
 sudo apt install cudatoolkit
 ```
 
@@ -15,7 +15,7 @@ git clone -depth 1 -b master https://bitbucket.org/petsc/petsc petsc
 cd petsc
 
 # run these and add to bashrc
-export PETSC_DIR=`pwd` # for bashrc need to give real path!
+export PETSC_DIR=# put path to petsc here!
 export PETSC_ARCH=arch-linux2-c-debug
 
 # may need to change cuda path based on install/version
