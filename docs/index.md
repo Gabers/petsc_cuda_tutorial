@@ -2,7 +2,7 @@ local install on ubuntu 16.04:
 
 first install cuda toolkit from https://developer.nvidia.com/cuda-downloads 
 
-alternately:
+or:
 ~~~~
 sudo apt install cudatoolkit
 ~~~~
@@ -44,7 +44,7 @@ mpiexec -n 2 ./ex50 -log_view -mat_view ::ascii_info -ksp_monitor -ksp_final_res
 blue waters petsc cuda install:
 ~~~~
 ssh traXXX@bwbay.ncsa.illinois.edu
-<enter password>
+
 
 git clone -depth 1 -b master https://bitbucket.org/petsc/petsc petsc
 cd petsc
